@@ -24,9 +24,9 @@ const Projects = () => {
                                     <p>{data.desc}</p>
                                 </div>
                             </div>
-                            <h3><b>Site Host Link :</b> <a target="_blank"
-                                rel="noreferrer" href={data.hostUrl}>{data.hostUrl}</a>  </h3>
-                            <h3><b>GitHub Link :</b> <a target="_blank"
+                            <h3><b>Site Host Link :</b> <a target="_blank" style={{ color: "#0B0080 " }}
+                                rel="noreferrer" href={data.hostUrl}>{data.hostUrl ? data.hostUrl : "--"}</a>  </h3>
+                            <h3><b>GitHub Link :</b> <a target="_blank" style={{ color: "#0B0080 " }}
                                 rel="noreferrer" href={data.gitUrl}>{data.gitUrl}</a> </h3>
                         </div>
                     )
