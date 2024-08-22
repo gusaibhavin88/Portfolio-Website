@@ -51,9 +51,10 @@ const Navbar = () => {
           <li>
             <span
               style={
-                activeCatagaryIndex === "homepage"
+                (activeCatagaryIndex === "homepage"
                   ? { borderBottom: "1px solid var(--black)" }
-                  : { borderBottom: "" }
+                  : { borderBottom: "" },
+                { cursor: "pointer" })
               }
               id="homepage"
               className="homepage"
@@ -66,9 +67,10 @@ const Navbar = () => {
             </span>
             <span
               style={
-                activeCatagaryIndex === "aboutpage"
+                (activeCatagaryIndex === "aboutpage"
                   ? { borderBottom: "1px solid var(--black)" }
-                  : { borderBottom: "" }
+                  : { borderBottom: "" },
+                { cursor: "pointer" })
               }
               id="aboutpage"
               onClick={(e) => {
@@ -80,9 +82,10 @@ const Navbar = () => {
             </span>
             <span
               style={
-                activeCatagaryIndex === "resumepage"
+                (activeCatagaryIndex === "resumepage"
                   ? { borderBottom: "1px solid var(--black)" }
-                  : { borderBottom: "" }
+                  : { borderBottom: "" },
+                { cursor: "pointer" })
               }
               id="resumepage"
               onClick={(e) => {
@@ -94,9 +97,10 @@ const Navbar = () => {
             </span>
             <span
               style={
-                activeCatagaryIndex === "skillpage"
+                (activeCatagaryIndex === "skillpage"
                   ? { borderBottom: "1px solid var(--black)" }
-                  : { borderBottom: "" }
+                  : { borderBottom: "" },
+                { cursor: "pointer" })
               }
               id="skillpage"
               onClick={(e) => {
@@ -108,9 +112,10 @@ const Navbar = () => {
             </span>
             <span
               style={
-                activeCatagaryIndex === "projectpage"
+                (activeCatagaryIndex === "projectpage"
                   ? { borderBottom: "1px solid var(--black)" }
-                  : { borderBottom: "" }
+                  : { borderBottom: "" },
+                { cursor: "pointer" })
               }
               id="projectpage"
               onClick={(e) => {
@@ -122,9 +127,10 @@ const Navbar = () => {
             </span>
             <span
               style={
-                activeCatagaryIndex === "contactpage"
+                (activeCatagaryIndex === "contactpage"
                   ? { borderBottom: "1px solid var(--black)" }
-                  : { borderBottom: "" }
+                  : { borderBottom: "" },
+                { cursor: "pointer" })
               }
               id="contactpage"
               onClick={(e) => {
