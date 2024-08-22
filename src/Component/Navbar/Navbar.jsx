@@ -36,8 +36,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="l-nav">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" style={{ cursor: "pointer" }} />
         <h1
+          style={{ cursor: "pointer" }}
           onClick={(e) => {
             navigate("/");
             setactiveCatagaryIndex("homepage");
