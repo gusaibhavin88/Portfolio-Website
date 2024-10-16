@@ -30,7 +30,7 @@ import menuicon from "./MenuIcon.svg";
 import cross from "./Vector.png";
 import postgresql from "./postgresql-logo.svg";
 import s3 from "./amazon-s3.svg";
-import nest from "./nestJS.svg";
+import nest from "./NestJS.svg";
 import tailwindcss from "./tailwindcss.svg";
 import redis from "./redis.svg";
 import next from "./nextjs.svg";
