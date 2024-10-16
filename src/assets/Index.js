@@ -28,6 +28,14 @@ import location from "./location.svg";
 import mail from "./mail.svg";
 import menuicon from "./MenuIcon.svg";
 import cross from "./Vector.png";
+import postgresql from "./postgresql-logo.svg";
+import s3 from "./amazon-s3.svg";
+import nest from "./nestJS.svg";
+import tailwindcss from "./tailwindcss.svg";
+import redis from "./redis.svg";
+import next from "./nextjs.svg";
+import docker from "./docker.svg";
+import socket from "./socket.svg";
 
 export {
   cross,
@@ -60,4 +68,12 @@ export {
   cell,
   mail,
   location,
+  postgresql,
+  s3,
+  nest,
+  tailwindcss,
+  redis,
+  next,
+  docker,
+  socket,
 };
